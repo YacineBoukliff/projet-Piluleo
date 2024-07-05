@@ -1,0 +1,116 @@
+/* RESET CSS */ 
+
+/* supprime les marges et padding par défaut de tout les élements */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  
+  
+  
+  
+  }
+  /* Change l'espace entre les lignes de 1.5 car de base il est a 1.2 et c'est pas recommandé
+  et le webkit c'est pour MACos*/
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+  /* C'est pour gérer tout ces élements dans des blocks et avec une max width de 100%*/
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /* Corrige le fait que tout les boutons aient des polices par défaut */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /* Permet des retours a la ligne afin que ca soit responsive et que le texte ne déborde pas sur la barre
+  de défilement a droite   */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+
+
+
+
+
+
+  
+
+/* Couleur de fond de toute la page */ 
+  body {background-color: #00A1E4;
+  font-family: poppins;
+min-height: 100vh;}
+
+
+  header {background-color: rgb(230, 72, 9);
+height: 17vh;
+width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+header i {font-size: 60px;
+}
+
+.logogauche{margin-top: 10px;
+margin-left: 10px;}
+
+h1 {
+  text-align: center;
+color: #ffffff;
+font-size: 100px;}
+p{color: rgb(255, 255, 255);}
+
+
+.droite{
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+margin-right: 10px;}
+
+
+.droite p {font-size: 2rem;
+text-align: center;}
+
+
+main {display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.imagegauche {width: 35%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagegauche img {width: 400px
+}
+
+.imagedroite {
+  width: 35%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagedroite img {width: 550px;}
+
+
+
+
+
+
+
+
